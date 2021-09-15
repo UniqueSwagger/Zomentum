@@ -1,0 +1,30 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+.header-text {
+  padding-top: 5rem;
+  padding-bottom: 13rem;
+  clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
+}
+#header-left-image {
+  position: relative;
+  top: -190px;
+  left: 100px;
+}
+#header-right-image {
+  position: relative;
+  top: -320px;
+  left: 32rem;
+}
+#list-text {
+  position: relative;
+  top: -130px;
+}
+@media only screen and (max-width: 688px) {
+  .mbl {
+    padding: 10px !important;
+  }
+}
